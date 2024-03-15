@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
+}
+
+header {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+div {
+    border-color: red;
+    border: 2px solid red
+}*/
+
+.headertext {
+    margin: 3vh;
+    width: 50%;
+    font-size: 36px;
+}
+
+.headerlinks {
+    margin: 3vh;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.maintext {
+    max-width: 85%;
+    margin: 15px auto;
+    font-family: "Trirong", serif;
+    font-size: 5vw;
+}
+
+.subtitle {
+    max-width: 60%;
+    margin: -20px auto;
+    font-family: "Trirong", serif;
+    font-size: 1.8vw;
+}
+
+.box {
+    max-width: 60%;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 30vw;
+    color: white;
+    font-size: 8vw;
+    font-family: "Trirong", serif;
+    text-align: center;
+}
+
+.nameinput {
+    width: 50%;
+    border-radius: 8px;
+    line-height: 40px;
+}
+
+.nameinput:focus {
+    background-color: #C5C5C5;
+}
+
+.buttoninput {
+    width: 25%;
+    border-radius: 8px;
+    line-height: 40px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+    font-size: 2vw;
+}
+
+.explanation {
+    max-width: 85%;
+    margin: 85px auto;
+    font-family: "Trirong", serif;
+    font-size: 1.3vw;
+
+}
